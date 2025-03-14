@@ -21,7 +21,7 @@ const Aside = () => {
                 <span className="text-2xl">Ver mais</span>
             </li>
 
-            <li className="border-1 border-t-0 border-l-0 p-12 flex justify-center">
+            <li className="border-1 border-t-0 border-b-0 border-l-0 p-12 flex justify-center">
                 <h2 className="text-[2.5rem] font-semibold">Solicitar Auxílio</h2>
 
             </li>

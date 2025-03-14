@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Link from "next/link"
 
 const Header = () => {
     return(
@@ -11,17 +12,15 @@ const Header = () => {
                    rounded-md cursor-pointer transition-all duration-300 ease-in-out 
                    shadow-md hover:shadow-lg">Pesquisar</button>
 
-            <div className=""></div>
 
-            <div>
                 <ul className="flex gap-32 items-center pt-6 ">
                     <li className="text-2xl">
-                        <a href="" target="_blank">Quem somos?
-                        </a>
+                        <Link href="" target="_blank">Quem somos?
+                        </Link>
                     </li>
                     
                     <li className="text-2xl">
-                        <a href="" target="_blank">Dúvidas frequentes</a>
+                        <Link href="" target="_blank">Dúvidas frequentes</Link>
                         
                     </li> 
 
@@ -29,7 +28,7 @@ const Header = () => {
                     <Image src="/assets/Login.svg" alt="login" width={40} height={20} className="flex items-center justify-end space-x-4 pb-"/>
                     </li>
                 </ul>
-            </div>
+            
 
 
 
